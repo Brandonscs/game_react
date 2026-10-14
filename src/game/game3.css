@@ -1,0 +1,29 @@
+.game3-container {
+  background: #19022b;
+  color: #d154ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+}
+
+.game3-area {
+  width: 300px;
+  height: 300px;
+  background: #2d064a;
+  border: 3px solid #d154ff;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  margin: 15px 0;
+}
+
+.target-ghost {
+  font-size: 2.5rem;
+  position: absolute;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.1s ease;
+}

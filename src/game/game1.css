@@ -1,0 +1,19 @@
+/* src/game/game1.css */
+.game1-container {
+  background: #0f172a;
+  color: #38bdf8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.coin-btn {
+  font-size: 5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.1s;
+}
+.coin-btn:active { transform: scale(0.85); }
+.back-btn { margin-top: 20px; padding: 10px 20px; cursor: pointer; }
