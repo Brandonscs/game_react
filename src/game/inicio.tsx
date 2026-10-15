@@ -24,6 +24,7 @@ export const Inicio: React.FC<InicioProps> = ({ onSelectGame }) => {
         <button className="menu-card" onClick={() => onSelectGame(4)}>
           🧠 Minijuego 4<br /><small>Memoria Flash</small>
         </button>
+        <button className="menu-card" onClick={() => onSelectGame(5)}>❌ Tic-Tac-Toe</button>
       </div>
     </div>
   );

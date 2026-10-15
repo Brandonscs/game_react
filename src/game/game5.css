@@ -1,0 +1,48 @@
+.game5-container {
+  background: #090014;
+  color: #ff007f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.tictactoe-board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.cell {
+  background-color: #1a0033;
+  border: 2px solid #ff007f;
+  border-radius: 10px;
+  font-size: 2.5rem;
+  color: #00ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.cell:hover {
+  background-color: #2e0057;
+  box-shadow: 0 0 10px #ff007f;
+}
+
+.cell.o {
+  color: #ff007f;
+}
+
+.status-text {
+  font-size: 1.2rem;
+  color: #00ffff;
+  margin-bottom: 15px;
+  height: 24px;
+}
